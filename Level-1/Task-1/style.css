@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#bg{
+    background-image: url(./Assests/fishpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 740px;
+}
+#navigation{
+    display: flex;
+    background-color: rgb(63, 93, 77);
+    height: 85px;
+}
+#nav1{
+    margin-left: 60px;
+    width: 650px;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav2{
+    margin-left: 300px;
+    width: 800px;
+    padding: 15px;
+}
+.b1{
+    background-color: rgb(157, 194, 100);
+    color: white;
+    margin-left: 40px;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.2cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b1:hover{
+    background-color: rgb(192, 216, 160);
+}
+#nav{
+    width: 600px;
+    top: 100px;
+    left:800px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
+    color: darkolivegreen;
+}
+#d1{
+    top: 160px;
+    left:310px;
+    position: relative;
+    /* display: flex;  */
+    margin: 0 auto; 
+    height: 320px;
+    width: 350px;
+    /* align-items: center; */
+    background-color: #f0f4f5;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.35);
+    justify-content: center;
+}
+#signup{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* border: 2px solid; */
+}
+#d3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0px;
+    margin-left: 90px;
+    width:200px;
+    height: 30px;
+    /* color: white; */
+    /* border: 2px solid; */
+}
+input{
+    outline: none;
+    margin-left:30px ;
+    height: 30px;
+    width: 280px;
+    border: white;
+    border-radius: 0.2cm;
+    background-color: rgb(228, 226, 226);
+    color: black;
+}
+#number{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#b2{
+    background-color: rgb(19, 11, 97);
+    color: white;
+    margin-left: 120px;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.2cm;
+}
+#b2:hover{
+    background-color: rgb(75, 75, 165);
+}
+#meal{
+    background-image: url(./Assests/greenbg.jpg);
+    height: 740px;
+    background-size: cover;
+}
+#mealplan{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 530px;
+    width: 500px;
+    color: rgb(228, 161, 35);
+}
+#mealbox{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 370px;
+    background-color: rgb(212, 237, 229);
+    border-radius: 0.5cm;
+}
+#fat{
+    width: 300px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 0.5cm;
+    height: 100px;
+    padding: 15px;
+}
+.veg{
+    margin-top: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 140px;
+    padding: 17px;
+}
+#c1{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 400px;
+}
+#c2{
+    margin-top: 40px;
+    width: 400px;
+}
+#foot{
+    display: flex;
+    height: 740px;
+    padding: 130px;
+    background-image: url(./Assests/tree1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#f1{
+    margin-left: 130px;
+    height: 500px;
+    width: 500px;
+    padding: 90px;
+}
+#f2{
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+}
+#b3{
+    background-color: rgb(60, 169, 104);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.2cm;
+    border: white;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.20);
+}
+#b3:hover{
+     background-color: rgb(96, 246, 156);
+}
+#h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h2{
+    color: rgb(142, 138, 138);
+    font-size: 23px;
+    font-weight:50;
+    font-family: Arial, Helvetica, sans-serif;/
+}
+#egg{
+    height: 400px;
+}
+#footer{
+    height: 740px;
+    border:2px solid black;
+    background-color: rgb(15, 2, 2);
+}
+#footer1{
+    margin-top: 50px;
+    color: white;
+    /* border: 2px solid; */
+    width: 300px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: rgb(207, 204, 204);
+    font-size: 18px;
+}
+#follow{
+    display: flex;
+    margin-left: 590px;
+    left: 20px;
+    padding: 10px;
+}
+#face{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+}
+#insta{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+#you{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    margin-left: 60px;
+}
+#twitter{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    margin-left: 70px;
+}
+#ques{
+    margin-top: 50px;
+    color: white;
+    /* border: 2px solid; */
+    width: 300px;
+    margin-left: 600px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
